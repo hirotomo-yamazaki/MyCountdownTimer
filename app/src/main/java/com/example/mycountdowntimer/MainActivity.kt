@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         CountDownTimer(millisInFuture, countDownInterval) {
         //現在カウントダウン中か停止中かを表すフラグ
         //このプログラムはカウントダウンのスタート・ストップを一つのフローティングアクションボタンで行うので、
-        // このプロパティが必要になる
+        // このプロパティが必要
         var isRunning = false
 
         //このメソッドではミリ秒単位のタイマーの残り時間から奮闘用を取り出して、テキストビューに表示している
